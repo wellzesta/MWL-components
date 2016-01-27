@@ -11,7 +11,15 @@ This repository comes pre-built with
 * Semantic-UI
 * Firebase toolbelt
 
-Firebase offers easy deployment. To deploy on firebase, see instructions below.
+## API
+
+Firebase offers easy deployment. The app is pre-configured to use the firebase API at **https://mwl-components.firebaseIO.com**. `ember install emberfire` installs: 
+
+* a Firebase Adapter
+* ...
+
+
+
 
 ## Prerequisites
 

@@ -1,0 +1,14 @@
+<div class="row">
+	<div class="ui form">
+		<div class="field">
+			<label>Register new user:</label>
+			{{input value=name placeholder="Name"}}			
+		</div>
+		<button {{action 'addNew'}}>Add</button>
+	</div>
+</div>
+
+<div class="row">
+	{{message}}
+</div>
+

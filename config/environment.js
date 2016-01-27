@@ -5,7 +5,7 @@ module.exports = function(environment) {
     modulePrefix: 'MWL-components',
     environment: environment,
     contentSecurityPolicy: { 'connect-src': "'self' https://auth.firebase.com wss://*.firebaseio.com" },
-    firebase: 'https://magelrob.firebaseIO.com/',
+    firebase: 'https://mwl-components.firebaseIO.com',
     baseURL: '/',
     locationType: 'auto',
     EmberENV: {
