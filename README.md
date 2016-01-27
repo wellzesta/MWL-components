@@ -3,7 +3,15 @@
 ## About
 
 This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+
+For MyWellzestaLife we are using the [Semantic-UI](http://semantic-ui.com/) framework.
+
+This repository comes pre-built with 
+
+* Semantic-UI
+* Firebase toolbelt
+
+Firebase offers easy deployment. To deploy on firebase, see instructions below.
 
 ## Prerequisites
 
