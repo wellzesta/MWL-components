@@ -1,7 +1,7 @@
 {
-  "name": "maggie-website",
+  "name": "MWL-components",
   "version": "0.0.0",
-  "description": "Small description for maggie-website goes here",
+  "description": "Fork this repository to devellop plugins for MyWellzestaLife",
   "private": true,
   "directories": {
     "doc": "doc",
