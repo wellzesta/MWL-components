@@ -56,15 +56,15 @@ Pods are enabled by default. This organizes routes and temples together. Using t
 Firebase offers web app hosting and a backend noSQL document store--MongoDB. This repository is pre-configured with all the tools needed to connect to firebase. Do the following:
 
 * Establish a firebase account. Suggestion: use google OAuth.
-* create a "new app" from your dashboard. Copy the {app-name}
+* create a "new app" from your dashboard. Copy the `<app-name>`
 * in **config/environment.js** edit the line
 
-> firebase: 'https://{app-name}.firebaseIO.com',
+> firebase: 'https://`<app-name>`.firebaseIO.com',
 
 
 * in **firebase.json** edit the line
 
->   "firebase": "{app-name}",
+>   "firebase": "`<app-name>`",
 
 ### Deploy
 
