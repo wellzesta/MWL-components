@@ -4,23 +4,6 @@
 
 This README outlines the details of collaborating on this Ember application.
 
-For MyWellzestaLife we are using the [Semantic-UI](http://semantic-ui.com/) framework.
-
-This repository comes pre-built with 
-
-* Semantic-UI
-* Firebase toolbelt
-
-## API
-
-Firebase offers easy deployment. The app is pre-configured to use the firebase API at **https://mwl-components.firebaseIO.com**. `ember install emberfire` installs: 
-
-* a Firebase Adapter
-* ...
-
-
-
-
 ## Prerequisites
 
 You will need the following things properly installed on your computer.
@@ -57,12 +40,39 @@ Make use of the many generators for code, try `ember help generate` for more det
 * `ember build` (development)
 * `ember build --environment production` (production)
 
-### Deploying
+### Using
 
-Easy deploy's:
+MyWellzestaLife uses the [Semantic-UI](http://semantic-ui.com/) framework that provides respoonsive view and a rich widget toolset. The default theme looks great!
 
-* [Heroku]()
-* [Firebase]()
+This repository comes pre-baked with 
+
+* Semantic-UI
+* Firebase toolbelt
+
+Pods are enabled by default. This organizes routes and temples together. Using the pod structure is a matter of personal taste.
+
+### API
+
+Firebase offers web app hosting and a backend noSQL document store--MongoDB. This repository is pre-configured with all the tools needed to connect to firebase. Do the following:
+
+* Establish a firebase account. Suggestion: use google OAuth.
+* create a "new app" from your dashboard. Copy the {app-name}
+* in **config/environment.js** edit the line
+
+> firebase: 'https://{app-name}.firebaseIO.com',
+
+
+* in **firebase.json** edit the line
+
+>   "firebase": "{app-name}",
+
+### Deploy
+
+Deploy your app to firebase:
+
+```
+firebase deploy
+```
 
 
 ## Further Reading / Useful Links
@@ -72,4 +82,5 @@ Easy deploy's:
 * Development Browser Extensions
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+
 
