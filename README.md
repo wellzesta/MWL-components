@@ -6,13 +6,18 @@ This README outlines the details of collaborating on this Ember application.
 
 ## Prerequisites
 
+### Option 1: Local computer
 You will need the following things properly installed on your computer.
 
-* [Git](http://git-scm.com/)
+* [Git](http://git-scm.com/). Optional, but recommended: [GitHub desktop](https://desktop.github.com/)
 * [Node.js](http://nodejs.org/) (with NPM)
 * [Bower](http://bower.io/)
 * [Ember CLI](http://www.ember-cli.com/)
 * [PhantomJS](http://phantomjs.org/)
+
+### Option 2: hosted IDE
+
+* [Cloud9](https://c9.io/)
 
 ## Installation
 
@@ -42,21 +47,23 @@ Make use of the many generators for code, try `ember help generate` for more det
 
 ### Using
 
-MyWellzestaLife uses the [Semantic-UI](http://semantic-ui.com/) framework that provides respoonsive view and a rich widget toolset. The default theme looks great!
-
-This repository comes pre-baked with 
+**MWL-components** (this repository) comes pre-baked with 
 
 * Semantic-UI
 * Firebase toolbelt
 
-Pods are enabled by default. This organizes routes and temples together. Using the pod structure is a matter of personal taste.
+#### Semantic-UI
 
-### API
+MyWellzestaLife uses the [Semantic-UI](http://semantic-ui.com/) framework that provides responsive view and a rich widget toolset. The default theme looks great!
 
-Firebase offers web app hosting and a backend noSQL document store--MongoDB. This repository is pre-configured with all the tools needed to connect to firebase. Do the following:
+Pods are enabled by default. The pod structure organizes routes and temples together.
 
-* Establish a firebase account. Suggestion: use google OAuth.
-* create a "new app" from your dashboard. Copy the `<app-name>`
+#### Firebase
+
+Firebase offers web app hosting and a backend noSQL document store--MongoDB. **MWL-components** is pre-configured with all the tools needed to connect to firebase. Do the following:
+
+* Establish a [firebase account](https://www.firebase.com/). Suggestion: Choose "sign up with google".
+* In your firebase dashboard create a "new app". Copy the `<app-name>`
 * in **config/environment.js** edit the line
 
 > firebase: 'https://`<app-name>`.firebaseIO.com',
@@ -68,11 +75,8 @@ Firebase offers web app hosting and a backend noSQL document store--MongoDB. Thi
 
 ### Deploy
 
-Deploy your app to firebase:
-
-```
-firebase deploy
-```
+* `firebase deploy`
+* TODO: May need to set global firebase login credentials
 
 
 ## Further Reading / Useful Links
