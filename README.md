@@ -33,7 +33,7 @@ You will need the following things properly installed on your computer.
 
 ### Code Generators
 
-Make use of the many generators for code, try `ember help generate` for more details
+Make use of the many generators for code. Try `ember help generate` for more details
 
 ### Running Tests
 
@@ -54,9 +54,9 @@ Make use of the many generators for code, try `ember help generate` for more det
 
 #### Semantic-UI
 
-MyWellzestaLife uses the [Semantic-UI](http://semantic-ui.com/) framework that provides responsive view and a rich widget toolset. The default theme looks great!
+MyWellzestaLife uses the [Semantic-UI](http://semantic-ui.com/) framework that provides responsive view and a rich widget toolset. And the default theme looks great!
 
-Pods are enabled by default. The pod structure organizes routes and temples together.
+Pods are enabled by default. The pod structure organizes routes and temples together, as done with ember components.
 
 #### Firebase
 
@@ -67,7 +67,6 @@ Firebase offers web app hosting and a backend noSQL document store--MongoDB. **M
 * in **config/environment.js** edit the line
 
 > firebase: 'https://`<app-name>`.firebaseIO.com',
-
 
 * in **firebase.json** edit the line
 
